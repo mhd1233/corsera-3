@@ -1,0 +1,591 @@
+body{
+    background-color: rgba(17, 14, 14, 0.979);
+    font-size: 18px;
+    
+}
+#nav-head{
+   
+    width:100%;
+    height: 7rem;
+    box-shadow: 0 9px 50px #000000;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    padding:5px 5px;
+    top:0;
+   
+  
+}
+#kira-photo{
+    width: 120;
+    height: 70px;
+    margin-left:55px;
+    
+    
+}
+#apng{
+    float: left;
+}
+#brand{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+    margin-bottom: 0;
+    line-height: .75;
+    text-shadow: -7px 5px 6px #000;
+    margin-left: 50px;
+   
+}
+#ah1{
+    text-decoration: none;
+}
+#calam{
+
+   
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+    margin-bottom: 0;
+    line-height: .75;
+    text-shadow: -7px 5px 6px #000;
+    
+}
+#menue{
+    position: absolute;
+    top:20px;
+    right: 15px;
+}
+.navbar-toggler{
+    float:right;
+    line-height: 20px;
+    margin-right: 15px;
+   
+}
+
+#kirago{
+    margin-top: 10px;
+}
+
+#icon1{
+    padding: 20px 10px 20px 10px;
+    font-size: 14px;
+    position:absolute;
+    top:10px;
+    right: 350px;
+    text-align: center;
+
+    
+   
+}#icon2{
+    padding: 20px 10px 20px 10px;
+    font-size: 14px;
+    position:absolute;
+    top:10px;
+    right: 270px;
+    text-align: center;
+
+    
+   
+}#icon3{
+    padding: 20px 10px 20px 10px;
+     font-size: 14px;
+    position:absolute;
+    top:10px;
+    right:200px;
+    text-align: center;
+
+    
+   
+}
+#icon4{
+ font-size: 18px;
+ color: #000;
+ 
+
+position:absolute;
+top:20px;
+right: 0px;
+padding-left: 10px;
+
+
+}
+.container{
+    padding-top: 1vh;
+
+}
+.jumbotron{margin-top: 30px;
+    padding: 0;
+   
+    
+    box-shadow: 0 0 50px #000000;
+    border: 2px solid #000000;
+}#title ,#title-map ,#title-s{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    border: 2px solid black;
+    margin-bottom:20px ;
+   
+}
+#title span,#title-map span,#title-s span{
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    opacity: .8;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+
+
+    border-top-right-radius: 10px;
+
+}#title:hover ,#title-map:hover,#title-s:hover{
+    box-shadow:0 1px 5px 1px  blanchedalmond;
+}
+#title{
+  background-image: url('../img/LandWater7.jpg') ;
+  background-repeat: no-repeat;
+    background-position: center;
+
+}#title-s{
+    background-image: url('../img/LandWater14.jpg') ;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+  }
+  .pannel-footer{
+      margin-top: 30px;
+      background-color:rgba(0, 0, 0, 0.85); 
+      padding-top: 35px;
+      padding-bottom: 30px;
+      border-top: 0;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      
+  }
+#fb-icon {
+    margin-bottom: 4px;
+    width: 20px;
+    height: 20px;
+}#tel-icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;}
+
+
+#col1-icon, #col-icon{
+    margin-bottom: 4px;}
+
+
+
+.pannel-footer div.row{
+    
+    margin-bottom: 35px;
+}#span1{
+    font-size: 20px;
+    font-weight: 600;
+    
+    width: 75%;
+}#fb{
+    text-decoration: none;
+    color: #212529;
+    font-size: px;
+}#fb:hover{
+    color: cornsilk;
+ 
+}.tgme_page_photo_image{border-radius: 200px;
+
+}
+#menue_tital{font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 35px;
+    text-align: center;
+   
+    
+    line-height: .75;
+    text-shadow: -7px 5px 6px #000;
+    letter-spacing: 4px;
+
+}
+#text-tital{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    font-size: 1.5em;
+ 
+    
+    margin-top: 20px;
+    text-align: center;
+   
+  
+    line-height: .75;
+    padding: 5px;
+    
+
+}
+#span-for-menue{
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+    opacity: .8;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+}
+#for-menue{
+    width: 200px;
+    height: 200px;
+    border: rgba(0, 0, 0, 0.85) 2px solid;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    
+}
+#for-menue:hover{
+    box-shadow:0 1px 5px 1px  blanchedalmond;
+
+}
+#sec-menue{
+    margin-top: 40px;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #icon1{
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
+        position:relative;
+      
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    }#icon2{
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
+        position:relative;
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    
+        
+       
+    }#icon3{
+        padding: 0px 0px 0px 0px;
+         font-size: 14px;
+        position:relative;
+        
+    
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    }
+    #icon4{
+     font-size: 18px;
+     color: #000;
+     
+    
+    position:relative;
+   
+    left:0px;
+    right: 0px;
+    bottom: 5px;
+    
+    
+    position:relative;
+   
+    margin-left: 350px;
+    }
+    
+    #brand{
+       
+        font-size:1.7 em;
+        
+        margin-bottom:0px;
+        
+        margin-left:20px;
+    }
+    #ah1{
+        text-decoration: none;
+    }
+    #calam{
+    
+       
+        font-family: 'Oxygen', sans-serif;
+        color: white;
+        font-size: 1em;
+        
+        
+    }
+    #kira-photo{
+        width:150px;
+        height: 85px;
+        margin-left:-15px;
+        
+        
+    }
+    .navbar-toggler{
+       margin-bottom: 25px;
+       margin-right: 20px;
+    } .pannel-footer{
+        text-align:center;
+    }
+    #text-tital{
+        
+        font-size: 1.2em;
+     
+        
+        margin-top: 20px;
+        text-align: center;
+       
+      
+        line-height: 1.5;
+        padding: 5px;
+        
+    
+    }
+    
+}@media (min-width:356px) and (max-width:767px){
+    
+    #icon1{
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
+        position:relative;
+      
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    }#icon2{
+        padding: 0px 0px 0px 0px;
+        font-size: 14px;
+        position:relative;
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    
+        
+       
+    }#icon3{
+        padding: 0px 0px 0px 0px;
+         font-size: 14px;
+        position:relative;
+        
+    
+        left:0px;
+        right: 0px;
+        bottom: 5px;
+        
+       
+    }
+    #icon4{
+     font-size: 18px;
+     color: #000;
+     
+     
+    position:relative;
+   
+    margin-left: 75px;
+    
+    }
+    #icon{
+        margin-top: 20px;
+        position: relative;
+        display: block;
+    }
+    
+    #brand{
+       
+        font-size:1em;
+        
+        
+        
+        margin-left:3px;
+    }
+    #ah1{
+        text-decoration: none;
+    }
+    #calam{
+    
+       
+        font-family: 'Oxygen', sans-serif;
+        color: white;
+        font-size: .7em;
+        
+        
+    }
+    #kira-photo{
+        width:85px;
+        height: 50px;
+        margin-left:-10px;
+        
+        
+    }
+    .navbar-toggler{
+       margin-bottom: 25px;
+       width: 60px;
+       height: 40px;
+}
+#nav-head{
+   
+    width:100%;
+    height: 5rem;
+}
+#title ,#title-map ,#title-s{
+    
+    width: 320px;
+    margin: 0 auto 15px;
+}
+#text-tital{
+   
+    font-size: 1em;
+ 
+    
+    margin-top: 20px;
+   
+    padding: 5px;
+    line-height: 1.5;
+    
+
+}#menue_tital{
+    font-size: 1.5em;
+    line-height: 1.5;
+   
+    letter-spacing: 2px;
+
+}#for-menue{
+    margin-left: 20px;
+    
+} 
+  }
+@media  (max-width:365px)
+{
+
+
+    #nav-head{
+   
+        width:100%;
+        height: 5rem;
+    }
+    #title ,#title-map ,#title-s{
+    
+        width: 85%;
+        
+        margin: 0 auto 15px;
+    }
+    #brand{
+       
+        font-size: 5vw;
+        
+       
+        
+        margin-left:3px;
+    }
+    #ah1{
+        text-decoration: none;
+    }
+    #calam{
+    
+       
+        font-family: 'Oxygen', sans-serif;
+        color: white;
+        font-size:4vw;
+        
+        
+    }
+    #kira-photo{
+        width:85px;
+        height: 50px;
+        margin-left:-10px;
+        
+        
+    }
+    #text-tital{
+   
+        font-size: .8em;
+     
+        line-height: 1.5;
+       
+       
+        padding: 5px;
+        
+    
+    }#menue_tital{
+        font-size: 1em;
+       line-height: 1.5;
+        letter-spacing: 2px;
+    
+    }   #col-xxs-12{
+      
+          
+        position:relative;
+        width: 100%;
+        
+      
+   
+        
+     
+     
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+       
+   
+}#for-menue{
+  margin-left: 15vw;
+    
+}
+
+}@media (min-width:356px) and (max-width:575px)
+{
+    #col-xxs-12{
+      
+          
+            position:relative;
+            width: 100%;
+            
+          
+       
+            
+         
+         
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+           
+       
+    }#for-menue{
+       margin-left: 25%;
+        
+    }
+   
+}
